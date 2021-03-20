@@ -2,8 +2,8 @@ terraform {
   backend "azurerm" {
       resource_group_name = "backendazure"
       storage_account_name = "azurermstorage12"
-      container_name = "containertfstate"
-      key            = "azure.containertfstate"
+      container_name = "tfstate"
+      key            = "azure.tfstate"
       access_key     = "nYxE3hirB282Jo1BKJbxmOteUP2dS5HkaIoNsmteCcsaUFnl4nqBMKA4E7DM19ckY8SliFIHXQ0jkIR33HO2fA=="
   }
 }
